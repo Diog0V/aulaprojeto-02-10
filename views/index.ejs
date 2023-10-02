@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div class="card-body">
+    <form action="/salvarproduto"
+        method="post">
+        <label for="nome"></label>
+        <input type="text" name="nome" id="nommeprod" placeholder="Descreva o seu nome..." class="from-control">
+        <br>
+        <label for="descricao">
+        Descrição</label>
+        <textarea name="descricao" id="descprod"placeholder="Descreva o porduto..." cols="30"rows="10"class="from-control"></textarea>
+        <br>
+        <button class="btn btn-primary">salvar</button>
+    </form>
+
+
+<%- include('partials/footer') %>

@@ -1,0 +1,10 @@
+<%- include('..partials/header') %> 
+<%- include('..partials/navbar') %> 
+
+<div class="container">
+    <% Produto.forEach(Produto => {%>
+   <p><%= produto.titulo%</p>
+   <p> <%= produto.descricao%</p>
+   <% })%>
+</div>
+<%- include('..partials/footer') %> 
